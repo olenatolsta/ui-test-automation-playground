@@ -39,32 +39,32 @@ http://localhost:3000
 3. In Visual Studio Code, open Cognigy folder
 4. Run the following command in order to read package.json, install all dependencies and update package-lock.json  
 ```bash
-npm install  
+npm install
 ```
-5. Install Playwright  
+5. Install Playwright
 ```bash
-npm install -D @playwright/test  
+npm install -D @playwright/test
 ```
 6. Install browsers  
 ```bash
-npx playwright install  
+npx playwright install
 ```
 7. Make sure to change or just check Base_URL in .env file
 8. Run the application  
 ```bash
-node app.js  
+node app.js
 ```
 9. Run tests  
 ```bash
-npx playwright test  
+npx playwright test
 ```
 Each test has it's number and a tag to run them separately.  
 ```bash
-npx playwright test --grep "@smoke"  
+npx playwright test --grep "@smoke"
 ```
 or  
 ```bash
-npx playwright test --grep "@OTTest-007"  
+npx playwright test --grep "@OTTest-007"
 ```
 10. View HTML report  
 ```bash
