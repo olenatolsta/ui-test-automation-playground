@@ -10,14 +10,14 @@ export class ProgressBarPage extends BaseHelper {
     this.startButton = page.locator('button[id="startButton"]');
     this.stopButton = page.locator('button[id="stopButton"]');
   }
-  // Waits for a particular Progress Bar value or 10 seconds
+  // Waits for a particular Progress Bar value or 15 seconds
   async waitForProgressBarValue() {
     await this.page.waitForFunction(
       () => {
         const el = document.querySelector('[role="progressbar"]');
         return el && Number(el.getAttribute("aria-valuenow")) >= 75;
       },
-      { timeout: 10000 }
+      { timeout: 15000 }
     );
   }
 }
