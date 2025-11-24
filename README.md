@@ -33,7 +33,7 @@ http://localhost:3000
 - [Bootstrap](https://github.com/twbs/bootstrap)
 - [jQuery](https://github.com/jquery/jquery)
 
-Olena Tolsta test task user manual  
+## Olena Tolsta test task user manual  
 1. Install Visual Studio Code https://code.visualstudio.com/download
 2. Clone the repository to Visual Studio Code
 3. In Visual Studio Code, open Cognigy folder
